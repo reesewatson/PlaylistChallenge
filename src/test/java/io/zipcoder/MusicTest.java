@@ -20,7 +20,7 @@ public class MusicTest {
     @Test
     public void selectionTest2(){
 
-        String[] playlist = {"dancinginthedark","rio","liveoak","liveoak"};
+        String[] playlist = {"dancinginthedark","rio","liveoak"};
         Music music = new Music(playlist);
         Integer startingIndex = 0;
         String selection = "liveoak";
